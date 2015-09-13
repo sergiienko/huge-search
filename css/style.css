@@ -46,7 +46,9 @@ button{
 	background: url('../img/magnifier.svg') no-repeat scroll 0 0;
 	width: 80px;
 	height: 80px;
-	margin: 25px 5% 0 0;
+	position: relative;
+	left: 75px;
+	top: 0px;
 }
 
 .ba-search-results {
@@ -128,14 +130,13 @@ button{
 
 @media screen and (min-width: 481px) and (max-width: 960px) {
 	.ba-search-field {
-		font-size: 50px;
+		font-size: 53px;
 		width: 60%;
 	}
 
 	.ba-search-submit {
-		width: 50px;
-		height: 50px;
-		margin-top: 5px;
+		width: 70px;
+		height: 70px;
 	}
 
 	.ba-search-results .ba-column {
