@@ -34,13 +34,13 @@ button{
 .ba-search-submit {
 	border: none;
 	background: transparent;
+	outline: none;
 }
 
 .ba-search-field {
 	font-size: 110px;
 	font-weight: 600;
 	width: 100%;
-	outline: none;
 }
 
 .ba-search-field:focus {
