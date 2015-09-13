@@ -26,6 +26,10 @@ button{
 	height: 100px;
 }
 
+.ba-search-form {
+	position: relative;
+}
+
 .ba-search-field,
 .ba-search-submit {
 	border: none;
@@ -35,7 +39,8 @@ button{
 .ba-search-field {
 	font-size: 110px;
 	font-weight: 600;
-	width: 80%;
+	width: 100%;
+	outline: none;
 }
 
 .ba-search-field:focus {
@@ -46,9 +51,9 @@ button{
 	background: url('../img/magnifier.svg') no-repeat scroll 0 0;
 	width: 80px;
 	height: 80px;
-	position: relative;
-	left: 75px;
-	top: 0px;
+	position: absolute;
+	top: 25px;
+	right: 4%;
 }
 
 .ba-search-results {
@@ -130,13 +135,13 @@ button{
 
 @media screen and (min-width: 481px) and (max-width: 960px) {
 	.ba-search-field {
-		font-size: 53px;
-		width: 60%;
+		font-size: 70px;
 	}
 
 	.ba-search-submit {
 		width: 70px;
 		height: 70px;
+		top: 7px;
 	}
 
 	.ba-search-results .ba-column {
@@ -154,14 +159,13 @@ button{
 
 @media screen and (max-width: 480px) {
 	.ba-search-field {
-		font-size: 35px;
-		width: 60%;
+		font-size: 50px;
 	}
 
 	.ba-search-submit {
 		width: 50px;
 		height: 50px;
-		margin-top: 5px;
+		top: 4px;
 	}
 
 	.ba-search-results .ba-column,
